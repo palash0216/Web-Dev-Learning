@@ -1,0 +1,58 @@
+<!-- 
+    The CSS grid offers us a grid based system 
+    for arranging elements on the layout, consisting of
+    rows and columns without having to use floats and positioning
+
+    A grid element consists of a parent elements with consecutive
+    child elements
+
+    The Grid has four Parts:
+    1. Vertical Line Visualization of Grids is called Column.
+    2. Horizontal Line Visualization of Grids is called Rows.
+    3. The spaces Visualization between the column
+     and the row can be classified as follows
+    4. Grid lines the spaces in between columns and rows can be classified as follows:
+        i) Lines between columns are column lines.
+        ii) Lines between rows are row lines.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+         body{
+             display:grid;
+             grid-template-columns: auto;
+             grid-template-rows: 130px 400px 130px;
+             grid-gap: 15px;
+         }
+         header,footer,main{
+             grid-column:1/span 2;
+         }
+         body{
+             margin: 0 auto;
+             max-width: 575px;
+             padding:15px 0;
+         }
+         header,footer,main{
+             background-color: blueviolet;
+             color: wheat;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+         }
+     </style>
+ </head>
+ <body>
+     <header>
+         This is the header.
+     </header>
+     <main>
+         This is the main Content.
+     </main>
+     <footer>This is the Footer</footer>
+ </body>
+ </html>

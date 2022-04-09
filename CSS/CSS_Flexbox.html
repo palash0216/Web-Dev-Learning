@@ -1,0 +1,61 @@
+<!-- 
+    The Flexbile Box Layout Module, Makes it easier 
+    to design flexible respoonsive layout structure without 
+    using the float or positioning
+
+    we can initiate a flexbox by setting the property Display:flex
+
+    We have the flooowing properties for setting a flexbox
+    1.flex-direction
+    2.flex-wrap
+    3.flex-flow
+    4.justify-content
+    5.allign-items
+    6.align-content
+    
+    CSS Flexbox Order
+    it species the tab index for which the elements 
+    inside the flexbox ordered.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+         .flexbox{
+             display: flex;
+             height: 500px;
+             flex-wrap: wrap;
+             align-content: space-between;
+             background-color: rgb(98, 222, 133);
+         }
+         .flexbox > div{
+             background-color: blue;
+             width:100px;
+             margin: 5px;
+             text-align: center;
+             line-height: 50px;
+             font-size: 20px;
+         }
+     </style>
+ </head>
+ <body>
+     <div class="flexbox">
+         <div>1</div>
+         <div>2</div>
+         <div>3</div>
+         <div>4</div>
+         <div>5</div>
+         <div>6</div>
+         <div>7</div>
+         <div>8</div>
+         <div>9</div>
+         <div>10</div>
+         <div>11</div>
+         <div>12</div>
+     </div>
+ </body>
+ </html>

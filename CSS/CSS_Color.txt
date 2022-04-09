@@ -1,0 +1,1 @@
+Color can be used in tree ways either by the color name ,or by using the hexadecimal values or using comma sperated values RGB

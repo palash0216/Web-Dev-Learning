@@ -1,0 +1,50 @@
+<!-- 
+    In CSS, Animations are provided to us in order to create more 
+    intuitive and interactive UI's.
+    We can initiate the Animations using the @keyframe rule.
+    
+    [Beautiful Landing Pages]
+
+    The Properties available for Animation are as follows:
+
+    1.@keyframes
+    2.animation-name
+    3.animation-duration
+    4.animation-delay
+    5.animation-iteration-count
+    6.animation-direction
+    7.animation-timing-function
+    8.animation-fill-mode
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            background-color: cyan;
+            position: relative;
+            animation-name:starttoend;
+            animation-duration: 4s;
+            animation-delay:3s ;
+            animation-fill-mode: backwards;
+        }
+        @keyframes starttoend
+        {
+            from{left: 0px;background-color: greenyellow;}
+            to{left: 300px;}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

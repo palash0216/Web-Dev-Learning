@@ -1,0 +1,18 @@
+<!-- 
+ The Box Model
+ The Box Model Consist of:
+ 1.Content:Can be text, Images etc.
+ 2.Padding:Area around the content,Transparent.
+ 3. Border: Bordering around the padding and content.
+ 4.Margin: Area Outside the border the margin is transparent.
+
+
+> CSS Border, Padding, and Margin
+
+CSS BORDER Properties
+1.Border-style
+2.Border-width
+3.Border-color
+4.Border-sides
+5.Rounded-Border
+ -->

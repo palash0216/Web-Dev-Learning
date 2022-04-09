@@ -1,0 +1,8 @@
+A Css is a selector is a pattern to match the elements on a web page. The style rules are associated with the selector will be applied
+to the elements that match the selector pattern.
+1. Universal selector   *{}
+2. Element type selector P{}
+3.ID selector #elementid{}
+4.Class selector .classname{}
+5.Descendent selector .classname Descendent{}
+6.Pseudo Class selector .classname:hover{}

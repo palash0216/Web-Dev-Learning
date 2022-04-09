@@ -1,0 +1,42 @@
+<!-- 
+    CSS provide us the ability to add smooth
+    multicolor combinations
+    CSS gives us 2 property values for gradient
+
+    1.Radial Gradient{The colors are Centered}
+    2.Linear Gradient{The Colors are either Up/down/left/right/diagonal}
+
+    The syntax for each is as follows:
+    1.linear-gradient(direction,color1,color2)
+    2.Radial Gradient(shape/size at position,initial-color,..final-color)
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .linear {
+            height: 75px;
+            background-color: rgb(141, 14, 14);
+            background-image: linear-gradient(to top right, red, rgb(31, 108, 251));
+        }
+
+        .gradient {
+            height: 75px;
+            background-color: rgb(141, 14, 14);
+            background-image:radial-gradient(rgb(41, 23, 172),red)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="linear"></div>
+    <br>
+    <div class="gradient"></div>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!-- 
+    Transformations in CSS allows us to perform rotation,scaling
+    ,skewing and move elements.
+
+    1. 2D Transformation
+        1. Rotate(xdeg);
+        2. Scale(sizes,sizes);
+        3. Skew(xdeg,ydeg);
+    
+    2. 3D Transformation:
+        1.RotateX(xdeg);
+        2.rotateY(ydeg);
+        3.rotateZ(zdeg);
+        
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 300px;
+            height: 75px;
+            background-color: rgb(22, 77, 59);
+            /* transform: scale(2,3); */
+            /* transform: skew(20deg,40deg); */
+        }
+
+        #axis {
+            transform: rotateZ(45dewg);
+        }
+
+        /* div#axis{
+             transform: rotate(320deg);
+         } */
+    </style>
+</head>
+
+<body>
+    <div id="axis"></div>
+</body>
+
+</html>
