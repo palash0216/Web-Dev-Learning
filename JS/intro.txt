@@ -1,0 +1,40 @@
+What is Javascript?
+
+1. Javascript is a client side scripting language, that runs on the browser.
+2. Javascript is an Object oriented Language.
+3. Javascript has some of the syntax's from the java but is not related to  java.
+4. ECMAScript 6 or ES6 is th emajor version of JS.
+5. JS is case Senssitive.
+
+Structure of JS
+
+<script>
+All running statements.
+</script>
+
+Variable in JS 
+
+<script>
+    var name = "Some String";
+    var age = 11;
+</script>
+
+Javascript Outputs
+
+>Writing Output to the console
+Console.log("Some statement");
+>Outuput as an Alert
+alert("Some statement");
+>Output to the Browser Screen
+Document.write("Some statement");
+>Writing Results to Elements as HTML 
+Document.getElementByld("SomeID").innerHTML="Some statement";
+
+Javascript Datatypes
+1.Undefined -> Doesn't have any value assigned to it.
+2.Null -> no value is present in the Element.
+3.Boolean ->Ture or False
+4.String ->set of characters aligned together.
+5.Symbols -> assigning names
+6.Number  -> working with the numbers int float
+7.object -> collection of different types of datatypes with different aspects. 
